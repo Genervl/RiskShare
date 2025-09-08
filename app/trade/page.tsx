@@ -325,7 +325,7 @@ export default function TradePage() {
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-foreground">Prediction Pools</h1>
-
+          <p className="text-muted-foreground">Create or join markets to predict price movements and win BDAG</p>
            <div className="flex justify-end">
               <Button asChild>
                 <Link href="https://v0-bdagtradingapp1-one.vercel.app/">Simple Trade</Link>
