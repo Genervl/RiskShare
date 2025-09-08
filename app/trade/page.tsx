@@ -326,9 +326,11 @@ export default function TradePage() {
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-foreground">Prediction Pools</h1>
 
-           <Button asChild>
-            <Link href="https://v0-bdagtradingapp1-one.vercel.app/">Simple Trade</Link>
-          </Button>
+           <div className="flex justify-end">
+              <Button asChild>
+                <Link href="https://v0-bdagtradingapp1-one.vercel.app/">Simple Trade</Link>
+              </Button>
+          </div>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-6">
